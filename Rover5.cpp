@@ -37,8 +37,8 @@ void bindEncoder() {
 }
 
 void unbindEncoder() {
-  dettachInterrupt(c_EncoderInterruptA, _HandleMotorInterruptA, CHANGE);
-  dettachInterrupt(c_EncoderInterruptB, _HandleMotorInterruptB, CHANGE);
+  detachInterrupt(c_EncoderInterruptA, _HandleMotorInterruptA, CHANGE);
+  detachInterrupt(c_EncoderInterruptB, _HandleMotorInterruptB, CHANGE);
 }
 
 int _ParseEncoder() {
