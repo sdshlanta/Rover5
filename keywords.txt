@@ -1,0 +1,29 @@
+###################################
+# Syntax Coloring Map For NewPing
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+Rover5 KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
+###################################
+bindEncoder		KEYWORD2
+unbindEncoder	KEYWORD2
+getEncoderTicks	KEYWORD2
+goForward		KEYWORD2
+turnLeft		KEYWORD2
+turnRight		KEYWORD2
+goReverse		KEYWORD2
+roverStop		KEYWORD2
+goForwardSpeed	KEYWORD2
+turnLeftSpeed	KEYWORD2
+turnRightSpeed	KEYWORD2
+goReverseSpeed	KEYWORD2
+
+###################################
+# Constants (LITERAL1)
+###################################
